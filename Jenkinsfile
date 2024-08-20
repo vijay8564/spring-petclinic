@@ -4,8 +4,8 @@ pipeline {
     agent any
 
     environment {
-        REPO_URL = 'https://github.com/vijay8564/project-1-ss.git'
-        BRANCH = 'master'
+        REPO_URL = 'https://github.com/vijay8564/spring-petclinic.git'
+        BRANCH = 'main'
         MAVEN_HOME = '/usr/share/maven'
         NEXUS_REPO_URL = 'http://nexus.example.com/repository/maven-releases/'
         CREDENTIALS_ID = 'nexus-credentials'
